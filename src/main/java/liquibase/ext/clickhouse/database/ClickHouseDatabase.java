@@ -91,4 +91,9 @@ public class ClickHouseDatabase extends AbstractJdbcDatabase {
   public boolean supportsSchemas() {
     return false;
   }
+
+  @Override
+  public boolean supportsDDLInTransaction() {
+    return false;
+  }
 }
