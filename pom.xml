@@ -66,7 +66,7 @@
         <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <clickhouse-jdbc.version>0.3.2</clickhouse-jdbc.version>
+        <clickhouse-jdbc.version>0.3.2-patch9</clickhouse-jdbc.version>
         <liquibase.version>4.11.0</liquibase.version>
         <junit.version>5.4.0</junit.version>
         <test-containers.version>1.15.3</test-containers.version>
@@ -86,7 +86,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>ru.yandex.clickhouse</groupId>
+            <groupId>com.clickhouse</groupId>
             <artifactId>clickhouse-jdbc</artifactId>
             <version>${clickhouse-jdbc.version}</version>
         </dependency>
